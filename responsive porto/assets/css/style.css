@@ -150,8 +150,11 @@ h3 {
 footer {
   position: fixed;
   bottom:0;
+  right:0;
   width:100%;
-  padding: 30px 0;
+  padding: 30px 0 0 0;
+  Margin: 0 0 0 0;
+
   clear: both;
   font-size: 12px;
   color: #fff;
@@ -162,12 +165,22 @@ footer {
   height: 50px;
   z-index: 1;
 }
+footer h3 {
+  font-size: 12px;
+  color: #fff;
+  color: #ccc;
+  text-align: center;
+  z-index: 4;
+  position: relative;
+  bottom: 20px;
+}
 
 h3, h2 {
   padding-bottom: 20px;
   margin-bottom: 15px;
   line-height: 22px;
   border-bottom: 2px solid #eee;
+
 }
 
 /* main */
